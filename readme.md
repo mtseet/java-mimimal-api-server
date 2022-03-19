@@ -27,7 +27,7 @@ groovy HttpServerMinimal.groovy
 curl http://localhost:8080
 {"app":"Minimal Api server","time":"2022-03-19T08:39:11+0000","params":{},"body":null}
 
-#Test Get with query parameter
+#Test GET with query parameter
 curl "http://localhost:8080?test=one&test2=two"
 {"app":"Minimal Api server","time":"2022-03-19T08:38:41+0000","params":{"test":"one","test2":"two"},"body":null}
 
